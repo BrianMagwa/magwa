@@ -9,7 +9,7 @@
 ## Known Bugs
 {No issues. Works perfectly fine. }
 ## Technologies Used
-{HTTML,CSS and GitHub.}
+{HTML,CSS and GitHub.}
 ## Support and contact details
 {kinyanjuibrian66@gmail.com.}
 ### License
