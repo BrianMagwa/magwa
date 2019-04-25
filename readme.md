@@ -2,11 +2,11 @@
 ####  23/04/2019
 #### By **Brian Magwa**
 ## Description
-This is a description about who Brian Magwa is and where he comes from. 
+This is a breif description of Brian Magwa.
 ## Requirements
-* Access to a device with access to the internet.
+* Access to a device connected to the internet.
+* GitHub
 * 
-*
 
 ## Known Bugs
 No issues. Works perfectly fine. 
