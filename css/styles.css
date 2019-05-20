@@ -1,16 +1,14 @@
-.background{
-    background-image: url(/home/magwab/magwa/images/magwa2.jpg);
-    overflow-x: auto;
-    overflow-y: auto;
-}
 h1 {
     color: #6d13e2;
     text-align: center;
+     text-decoration-line: underline;
+}
+h2 {
+  text-decoration-line: underline;
+}
+h3 {
     text-decoration-line: underline;
-  }
-  h2 {
-      text-decoration-line: underline;
-  }
-  h3 {
-      text-decoration-line: underline
-  }
+}
+.bac {
+    background: url(images/bac.gif);
+}
