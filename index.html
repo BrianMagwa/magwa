@@ -1,30 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Merienda+One&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./fonts"> -->
     <title>
       BRIAN MAGWA
     </title>
   </head>
-  <body class="bac">
-    <nav class="navbar navbar-expand-lg px-4">
-      <a class="navbar-brand" href="index.html"><img src="#" id ="logo" alt="logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
-      </button>
-      <div class="collapse navbar-collapse" id="myNav">
-        <ul class="navbar-nav mx-auto text-capitalize">
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-        </ul>
+  <body class="bac1">
+    <header id="header">
+      <!-- <div class="logo">
+        <a href="index.html">
+          <picture>
+            <source type="image/webp" srcset="images/logo.webp">
+            <img src="./images/LOGO.jpeg.jpg" alt="logo" width="80">
+          </picture>
+        </a>
+      </div> -->
+    </header>
+    <nav id="menu">
+        <div  class="logo">
+          <a href="index.html">
+            <picture>
+              <!-- <source type="image/webp" srcset="images/logo.webp"> -->
+              <img src="./images/LOGO.jpeg.jpg" alt="logo" width="80">
+            </picture>
+          </a>
         </div>
+        <a class="nav-link" href="#pr">Projects</a>
+        <a class="nav-link" href="#ab">About</a>
+        <a class="nav-link" href="#ho">Hobbies</a>
     </nav>
-    <div class="index">    
-      <a href="about.html"><h1>BRIAN MAGWA</h1></a>
+    <div class="index col-md-12">    
+      <h1 style="font-family: 'Caveat Brush', cursive; font-size: 142px;">Brian Magwa</h1>
     </div>
+    <div class="about container-a col-md-12" id="ab">
+      <article class="box">
+        <h2 style="font-family: 'Merienda One', cursive; font-size: 40px; color: white;">ABOUT MAGWA</h2>
+        <p>Magwa was born in the year <em> 1998 on 21st of July</em>. He grew up in Nairobi Kenya but studied in Nakuru and Busia. I decided to do programming due to the interest of knowing how a machine works and fixing them.</p>
+      </article>
+    </div>
+    <div class="projects container-p col-md-12" id="pr">
+      <article class="box">
+        <h2 style="font-family: 'Merienda One', cursive; font-size: 40px; color: white;">LIST OF PROJECTS</h2>
+        <P>
+        <strong> I managed to create:</P></strong>
+        <ol>
+        <li><a href="url">https://github.com/BrianMagwa/my-first-website.git</a></li>
+          <p>Used HTML language</p>
+        <li><a href="url">https://github.com/BrianMagwa/hello-world.git</a></li>
+          <p>Used HTML language</p>
+        </ol>
+      </article>
+    </div>
+    <div class="container-i col-md-12" id="ho">
+      <article class="box">
+        <h2 style="font-family: 'Merienda One', cursive; font-size: 40px; color: white;">HOBBIES</h2>
+        <ul>
+          <li>Playing basketball.</li>
+          <li>Puzzles.</li>
+        </ul>
+      </article>
+    </div>
+    <footer>
+      <div class="container-con col-md-12">
+        <button class="button"><a href="http://eepurl.com/gClXnv"><h2>Contact Magwa...</h2></a></button>
+        <p>Magwa.B
+          @2019
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

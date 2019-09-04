@@ -1,14 +1,187 @@
-h1 {
-    color: #6d13e2;
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Merienda+One&display=swap');
+.h1 {
     text-align: center;
-     text-decoration-line: underline;
+    margin-top: 400px;
+    text-shadow: 4px 4px 4px rgb(140, 0, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
-h2 {
-  text-decoration-line: underline;
+h1 {
+    text-align: center;
+    margin: 0;
+    text-shadow: 4px 4px 4px rgb(140, 0, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+/* h2 {
+    text-decoration-line: underline;
+    font-family: "Caveat", cursive;
+    text-align: center;
 }
 h3 {
     text-decoration-line: underline;
+    font-family: "Caveat", cursive;
+    text-align: center;
+} */
+/* .bac1 {
+    background-image: url(../images/magwa1.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: initial
 }
-.bac {
-    background: url(images/bac.gif);
+.bac2 {
+    background-image: url(../images/4695dec2e57b4f465d2a1f527a00e766.jpg);
+    width: 100%;
+    background-size: cover;
+    
+}
+.bac3 {
+    background-image: url(../images/6ed87e3b4ed87f9ea27174c0a78a0a79.jpg);
+    height: 100%;
+    background-size: cover;
+} */
+/* p {
+   text-align: center; 
+}
+ol {
+    text-align: center; 
+}
+ul {
+    text-align: center; 
+}
+li {
+  text-align: center; 
+} */
+ol, ul {
+    list-style: none;
+}
+.container-i {
+    text-align: center;
+    background-image: url(../images/3aa97fe71760e1bc39131e9915537273.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container-a {
+    text-align: center;
+    background: url(../images/6bf38c7c17a690efafdbe038fd6a65ad.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container-p {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-image: url(../images/6328131a4e74664eb63dc42061bce8b1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container-con {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-image: url(../images/087eb29e462c915eccc0d9926035bd94.jpg);
+    background-size: cover;
+    height: 25vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;  
+}
+.index {
+    text-align: center;
+    background: url(../images/98651162ffaf9f3de6bf2ab6ee339d43.jpg);
+    /* background-size: 1100px; */
+    background-size: cover;
+    height: 100vh;
+    background-position: top;
+    background-attachment: fixed;
+}
+#menu {
+    background-image: url(../images/59b8011fbe701bae3baa85feb724b06b.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;  
+}
+.box {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin-right: 12em;
+    margin-left: 12em;
+    margin-bottom: 2em;
+    overflow: hidden;
+    padding: 6em;
+    align-content: center;
+}
+article {
+    display: block;
+    /* margin-top: 100px; */
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    
+    
+}
+p, ol, li, ul {
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 18px;
+    color:  rgb(244, 202, 255);
+}
+#message {
+    border-radius: 4px;
+}
+#name {
+    border-radius: 4px;
+}
+#email {
+    border-radius: 4px;
+}
+label {
+    font-family: 'Patrick Hand', cursive;
+    display: block;
+    color: rgb(51, 7, 38);
+    margin: 0 0 4px;
+}
+#menu {
+    align-content: center;
+    text-align: center;
+}
+header {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.1;
+}
+.logo {
+    float: left;
+}
+.nav-link {
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 18px;
+    color:  rgb(244, 202, 255);
+}
+.button {
+    color: black;
+    border-radius: 4px;
+    /* background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); */
+    opacity: 0.7;
+    padding: 2em;
+
+    
+}
+.button:hover {
+    color: rgb(45, 11, 49);
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.3;
 }
